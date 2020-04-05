@@ -1,0 +1,17 @@
+{
+    "name": "@tolkam/react-scrollable",
+    "version": "1.0.0",
+    "description": "Scrollable overflowed elements",
+    "main": "src/index.ts",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "react": "^16.5",
+        "@tolkam/lib-utils": "file:D:/dev-packages/js/tolkam/lib-utils",
+        "@tolkam/lib-scroll-to": "file:D:/dev-packages/js/tolkam/lib-scroll-to"
+    },
+    "devDependencies": {
+        "tslib": "^1.9.3",
+        "@types/react": "^16.4"
+    }
+}
