@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Children, cloneElement, isValidElement, PureComponent, SyntheticEvent } from 'react';
 import scrollTo, { TEasing } from '@tolkam/lib-scroll-to';
 
@@ -135,10 +134,19 @@ class Scrollable extends PureComponent<IProps> {
 }
 
 interface IProps {
+    // element to scroll into view on mount - by index, name
+    // or false to disable
     scrollIntoView?: boolean | string | number;
+
+    // event name that triggers scroll
     scrollTriggerEvent?: string;
+
     scrollSpeed?: number;
+
+    // easing function name
     scrollEasing?: TEasing;
+
+    // whether to apply default styles
     withStyles?: boolean;
 }
 

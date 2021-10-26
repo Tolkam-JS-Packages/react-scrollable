@@ -1,17 +1,18 @@
 {
     "name": "@tolkam/react-scrollable",
-    "version": "1.0.0",
-    "description": "Scrollable overflowed elements",
-    "main": "src/index.ts",
+    "description": "Scrolls overflowed element's children into view",
+    "browser": "src/index.tsx",
+    "types": "src/index.tsx",
     "license": "UNLICENSED",
-    "private": true,
     "dependencies": {
-        "react": "^16.5",
-        "@tolkam/lib-utils": "file:D:/dev-packages/js/tolkam/lib-utils",
-        "@tolkam/lib-scroll-to": "file:D:/dev-packages/js/tolkam/lib-scroll-to"
+        "@tolkam/lib-utils": "^0.2.0",
+        "@tolkam/lib-scroll-to": "^1.0.0"
+    },
+    "peerDependencies": {
+        "react": "^16.14"
     },
     "devDependencies": {
         "tslib": "^1.9.3",
-        "@types/react": "^16.4"
+        "@types/react": "^16.14"
     }
 }
